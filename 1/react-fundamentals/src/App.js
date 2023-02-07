@@ -1,20 +1,13 @@
 import React from "react";
-import Navbar from "./Components/Navbar/Navbar";
 import Button from "./Components/Button/Button"
+import BackgroundStars from "./Components/BackgroundStars/BackgroundStars";
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <div style={
-        {
-          margin: '100px 0 0 100px'
-        }
-      }>
+        <BackgroundStars/>
         <Button/>
-      </div>
-      
-    </div>      
+      </div>    
   );
 }
 
